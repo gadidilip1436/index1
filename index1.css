@@ -1,0 +1,1369 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.mycontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  width: auto;
+  height: auto;
+}
+
+.mycontainer h2 {
+  margin-bottom: -8px;
+  width: auto;
+  height: auto;
+}
+.mycontainer p {
+  width: auto;
+  height: auto;
+}
+
+#a1 {
+  margin-left: 60px;
+}
+
+#a2 {
+  margin-right: 60px;
+}
+.href ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 5px 250px;
+  background-color: #e1dbdb;
+  overflow: hidden;
+  max-width: 800px;
+}
+
+.href li {
+  display: inline-block;
+  padding: 5px;
+}
+
+.href li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 5px 20px; /* Adjusted padding */
+  text-decoration: none;
+  width: auto;
+  font-size: smaller;
+}
+
+.href li a:hover {
+  background-color: #e8f791;
+  color: white;
+}
+
+.mycontainer1 {
+  text-align: left;
+  padding: 50px;
+  background-color: #0a0a0a;
+  height: 500px;
+}
+
+.mycontainer1 div {
+  padding: 180px 0;
+  text-align: left;
+}
+
+.mycontainer1 h3,
+.mycontainer1 h1,
+.mycontainer1 p {
+  color: white;
+  text-align: left;
+}
+
+.mycontainer1 button {
+  background-color: #008CBA;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mycontainer1 button:hover {
+  background-color: #00557e;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f5f0f0;
+}
+
+.header {
+  color: rgb(7, 7, 7);
+  padding: 10px;
+  margin-bottom: -30px;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+}
+
+.carousel-div {
+  width: 23%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 5px;
+  height: auto; /* Adjusted height */
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-container {
+  padding: 20px;
+  text-align: center;
+  margin-top: -200px;
+  margin-bottom: 150px;
+}
+
+.carousel-button {
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  height: 50px;
+}
+
+.carousel-button1 {
+  left: 50px;
+  color: rgb(194, 46, 46); 
+  border: none;
+  font-size: larger;
+}
+
+.carousel-button2 {
+  right: 50px;
+  color: rgb(194, 46, 46);
+  border: none;
+  font-size: larger;
+}
+
+.button-container1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: #888;
+  padding: 10px 30px;
+  font-size: 20px;
+  color: #ddd;
+  cursor: pointer;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #111;
+}
+
+#div1 {
+  width : 20%;
+  height: 200px;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#div2 {
+  width: 30%;
+  height: 300px;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#div3 {
+  width: 20%;
+  height: 200px;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.mycontainer2 {
+  padding: 50px;
+  background-color: white;
+  height: 500px;
+}
+
+.mycontainer2 header {
+  color: black;
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+.content-container img {
+  float: left;
+}
+
+.image {
+  width: 40%;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.text-content {
+  flex-grow: 1;
+}
+
+.text-content h4 {
+  color: #333;
+}
+
+.text-content p {
+  color: #555;
+}
+
+.mycontainer2 button {
+  background-color: #008CBA;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mycontainer2 button:hover {
+  background-color: rgb(14, 75, 145);
+  color: white;
+}
+
+.mycontainer3 {
+  background-color: #f8f8f8;
+  padding: 40px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+.mycontainer3 header {
+  color: rgb(12, 12, 12);
+  font-size: small;
+ 
+  text-align: center;
+}
+
+.mycontainer3 > div {
+  display: inline;
+  flex-direction: column;
+  align-items: left;
+  width: auto;
+  height: auto;
+}
+
+.mycontainer3 > div > div {
+  width: 32%;
+  box-sizing: border-box;
+  background-color: #D9EEE1;
+  margin: 10px 0; /* Adjusted margin for better spacing */
+  padding: 10px;
+  text-align: left;
+  display: inline-block;
+  height: auto;
+  
+}
+
+.mycontainer3 > div > div:nth-child(even) {
+  background-color: #FFC0C7;
+}
+
+.mycontainer3 button {
+  background-color: #2b2957;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 100px;
+}
+.mycontainer3 button:hover {
+  background-color: #1b173c;
+}
+.mycontainer3 h2 {
+  color: #333;
+}
+
+.mycontainer3 p {
+  color: #555;
+}
+
+.mycontainer4 {
+  max-width: 800px;
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  background-color: #203947;
+  padding: 5px 250px; /* Adjusted padding for better spacing */
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mycontainer4 h2 {
+  color: white;
+  margin: -50px;
+}
+
+.mycontainer4 h1 {
+  color: white;
+}
+
+
+.box {
+  border: 1px solid #000;
+  display: inline-block; /* Set to inlineblock to arrange boxes horizontally */
+  width: 80px;
+  height: 80px;
+  background-color: gold;
+  color: white;
+  margin: 20px 10px; /* Adjusted margin for spacing */
+  text-align: center;
+  line-height: 65px; /* Equal to the height of the box for vertical centering */
+}
+.mycontainer5 {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #F5F5F5;
+  padding: 5px 250px;
+  font-size: small;
+  height: auto;
+}
+
+.mycontainer5 .header {
+  color: black;
+  padding: 10px;
+  background-color: #F5F5F5;
+  margin-top: 20px;
+  margin-bottom: -60px;
+}
+
+.mycontainer5 h1 {
+  margin-bottom: -50px;
+}
+
+.mycontainer5 .image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+}
+
+.mycontainer5 .image-container img {
+  width: 48%; /* Adjust the width based on your design */
+}
+
+.mycontainer5 .button-container {
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.mycontainer5 button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mycontainer5 button:hover {
+  background-color: #e3a736;
+}
+
+.mycontainer6 {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  padding: 5px 250px;
+  width: 760px;
+  height: 350px;
+}
+
+.mycontainer6 .content,
+.subscribe-section {
+  flex: 1;
+  margin-top: 70px;
+}
+
+.mycontainer6 .content section {
+  text-align: center;
+  margin-top: 100px;
+  height: 20px;
+}
+
+.mycontainer6 h1,
+p,
+h6 {
+  color: #333;
+}
+
+.mycontainer6 .subscribe-section section {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 10px;
+  background-color: white;
+}
+
+.mycontainer6 h6 {
+  margin-right: 20px;
+}
+
+.mycontainer6 button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mycontainer6 button:hover {
+  background-color: #45a049;
+}
+
+.mycontainer7 {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: #f0f0f0;
+  overflow: hidden; /* Clearfix for floated elements */
+  width: 100%;
+  height: 320px;
+}
+.contact-container h1 {
+  display: inline-block;
+  padding:0 400px;
+  width: 100%;
+  height: 1px;
+  margin-top: 45px;
+}
+.contact-container h6 {
+  display: inline-block;
+  padding:0 400px;
+  width: 100%;
+  height: 1px;
+  margin-bottom: -24px;
+}
+
+.contact-container p {
+  display: inline-block;
+  padding:0 400px;
+  width: 100%;
+  height: 1px;
+  margin-top: -10px;
+}
+
+.location-container {
+  background-color: #008CBA;
+  text-align: center;
+}
+
+footer {
+  color: #777;
+  margin-top: 30px;
+  text-align: left;
+  background-color: #555;
+}
+
+.location-container section {
+  background-color: white;
+  font-size: large;
+  margin: 200px;
+}
+
+.mycontainer8 {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 800px;
+  padding: 10px 300px;
+  background-color: #203947;
+  text-align: center;
+}
+
+.mycontainer8 h1 {
+  color: white;
+  font-size: small;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.mycontainer8 h1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust this value to control the gap between text and underline */
+  left: 0;
+  width: 100%;
+  height: 2px; /* Adjust this value to control the thickness of the underline */
+  background-color: gold; /* Adjust this value to set the underline color */
+}
+
+.mycontainer8 p {
+  color: white;
+  font-size: small;
+}
+
+.mycontainer8 button {
+  background-color: #13222b;
+  color: white;
+  padding: 10px 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 13px;
+}
+
+.mycontainer8 button:hover {
+  background-color: #437693;
+  color: white;
+}
+
+.mycontainer8 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mycontainer8 li {
+  margin-bottom: 10px;
+  font-size: small;
+}
+
+.mycontainer8 a {
+  text-decoration: none;
+  color: white;
+}
+
+.mycontainer8 .social-icons {
+  display: flex;
+  flex-direction: column; /* Make social icons appear vertically */
+  justify-content: center;
+  padding: 0 2px;
+}
+
+.mycontainer8 .social-icons a {
+  margin: 5px 0; /* Adjust margin for spacing */
+  font-size: small;
+  display: inline;
+  color: white;
+}
+
+.mycontainer8 .social-icons a:hover {
+  color: #4caf50;
+}
+
+.mycontainer8 .instagram-feed {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.mycontainer8 .instagram-feed div {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.mycontainer8 #con2 a:hover {
+  color: green;
+}
+
+.mycontainer8 #con1 {
+  margin-right: 10px;
+}
+
+.mycontainer8 #con2 {
+  margin-left: 40px;
+}
+
+.mycontainer8 #con3 {
+  margin-left: 20px;
+}
+
+.mycontainer8 #con4 {
+  text-align: center;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 920px) {
+
+  .href ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container,
+  .mycontainer2,
+  .mycontainer3,
+  .mycontainer4,
+  .mycontainer5,
+  .mycontainer6,
+ 
+  .mycontainer8 {
+    padding: 30px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 920px) {
+  /* For tablets: */
+  .href ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 5px 120px;
+    background-color: #e1dbdb;
+    overflow: hidden;
+    
+  }
+  
+  .href li {
+    display: inline-block;
+    padding: 5px;
+  }
+  
+  .href li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px; /* Adjusted padding */
+    text-decoration: none;
+    width: auto;
+    font-size: smaller;
+    margin: -5px;
+  }
+  
+  .href li a:hover {
+    background-color: #e8f791;
+    color: white;
+  }
+  .mycontainer4 {
+    
+    margin: 0 auto; /* Center the container horizontally */
+    text-align: center;
+    background-color: #203947;
+    padding: 5px 120px; /* Adjusted padding for better spacing */
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .mycontainer4 h2 {
+    color: white;
+    margin: -50px;
+  }
+  
+  .box {
+    border: 1px solid #000;
+    display: inline-block; /* Set to inlineblock to arrange boxes horizontally */
+    width: 60px;
+    height: 60px;
+    background-color: rgb(201, 201, 19);
+    color: white;
+    margin: 10px 5px; /* Adjusted margin for spacing */
+    text-align: center;
+    line-height: 65px; /* Equal to the height of the box for vertical centering */
+    margin-top: 40px;
+  }
+  .mycontainer3 {
+    background-color: #f8f8f8;
+    padding: 40px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+  }
+  .mycontainer3 header {
+    color: rgb(12, 12, 12);
+    font-size: small;
+   
+    text-align: center;
+  }
+  
+  .mycontainer3 > div {
+    display: inline;
+    flex-direction: column;
+    align-items: left;
+    width: auto;
+    height: auto;
+  }
+  
+  .mycontainer3 > div > div {
+    width: 32%;
+    box-sizing: border-box;
+    background-color: #D9EEE1;
+    margin: 10px 0; /* Adjusted margin for better spacing */
+    padding: 5px;
+    text-align: left;
+    display: inline-block;
+    height: auto;
+    
+  }
+  
+  .mycontainer3 > div > div:nth-child(even) {
+    background-color: #FFC0C7;
+  }
+  
+  .mycontainer3 h2 {
+    color: #333;
+  }
+  
+  .mycontainer3 p {
+    color: #555;
+  }
+  
+.mycontainer3 button {
+  background-color: #2b2957;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 70px;
+}
+.mycontainer3 button:hover {
+  background-color: #1b173c;
+}
+  .mycontainer6 {
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+    padding: 5px 120px;
+    width: auto;
+    height: auto;
+  }
+  .mycontainer7 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    justify-content: space-between;
+}
+
+.contact-container h1 {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    padding: 0 150px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.contact-container h6 {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    padding: 0 150px;
+    margin-top: 20px;
+}
+.contact-container p {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    margin: 0;
+    padding: 0 150px;
+    
+}
+
+.contact-container h1 {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.location-container {
+    background-color: #008CBA;
+    
+    height: auto;
+    width: auto;
+    
+}
+
+footer {
+    color: #777;
+    text-align: left;
+    background-color: #555;
+    padding: 5px;
+}
+
+.location-container section {
+    background-color: white;
+    font-size: large;
+    margin: 50px 0;
+    padding: 20px 5px;
+    
+}
+
+.mycontainer8 .instagram-feed {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.mycontainer8 .instagram-feed div {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+  margin-top: 15px;
+}
+}
+
+/* Common styles outside media query */
+/* Add global styles here */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .href ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 2px;
+    background-color: #e1dbdb;
+    overflow: hidden;
+    font-size: 14px;
+  }
+  
+  .href li {
+    display: inline-block;
+    padding: 1px;
+  }
+  
+  .href li a {
+    display: block;
+    color: black;
+    text-align: left;
+    padding: 1px 5px; /* Adjusted padding */
+    text-decoration: none;
+    width: auto;
+    font-size: smaller;
+    margin: -5px;
+    margin-right: 1px;
+  }
+  
+  .href li a:hover {
+    background-color: #e8f791;
+    color: white;
+  }
+  
+  .mycontainer2 {
+    padding: 50px;
+    background-color: white;
+    height: auto;
+    overflow: hidden;
+  }
+  
+  .mycontainer2 header {
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .content-container {
+    display: inline-block;
+    align-items: center;
+  }
+  
+  .image {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .text-content {
+    flex-grow: 1;
+  }
+  
+  .text-content h4 {
+    color: #333;
+  }
+  
+  .text-content p {
+    color: #555;
+  }
+  
+  .mycontainer2 button {
+    background-color: #008CBA;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 100px;
+  }
+  
+  .mycontainer2 button:hover {
+    background-color: rgb(14, 75, 145);
+    color: white;
+  }
+/* Add the rest of your existing styles here */
+
+.carousel-div {
+  width: 25%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0 5px;
+  height: auto; /* Adjusted height */
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-container {
+  padding: 20px;
+  text-align: center;
+  margin-top: -200px;
+  margin-bottom: 150px;
+}
+
+.carousel-button {
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  height: 170px;
+}
+
+.carousel-button1 {
+  left: 10px;
+  color: rgb(194, 46, 46); 
+  border: none;
+  font-size: larger;
+}
+
+.carousel-button2 {
+  right: 10px;
+  color: rgb(194, 46, 46);
+  border: none;
+  font-size: larger;
+}
+
+.button-container1 {
+  padding: 20px;
+  text-align: center;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  background: #888;
+  padding: 5px 20px;
+  font-size: 20px;
+  color: #ddd;
+  cursor: pointer;
+  margin: 10px auto;
+}
+
+.btn:hover {
+  background: #111;
+}
+
+#div1 {
+  width: 25%;
+  height: 120px;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#div2 {
+  width: 35%;
+  height: 200px;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+#div3 {
+  width: 25%;
+  height: 120px;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.mycontainer3 {
+  background-color: #f8f8f8;
+  padding: 40px;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  overflow: hidden;
+}
+.mycontainer3 header {
+  color: rgb(12, 12, 12);
+  font-size: small;
+  text-align: center;
+}
+
+.mycontainer3 > div {
+  display: inline;
+  align-items: left;
+  width: auto;
+  height: auto;
+}
+
+.mycontainer3 > div > div {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #D9EEE1;
+  margin: 10px 0; /* Adjusted margin for better spacing */
+  padding: 10px;
+  text-align: left;
+}
+
+.mycontainer3 > div > div:nth-child(even) {
+  background-color: #FFC0C7;
+}
+
+.mycontainer3 h2 {
+  color: #333;
+}
+
+.mycontainer3 p {
+  color: #555;
+}
+
+.mycontainer3 button {
+  background-color: #2b2957;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 100px;
+}
+.mycontainer3 button:hover {
+  background-color: #1b173c;
+}
+
+.mycontainer4 {
+  max-width: 600px;
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+  background-color: #3a454b;
+  padding: 1px 50px; /* Adjusted padding for better spacing */
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.mycontainer4 h1 {
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+.mycontainer4 h2 {
+  color: white;
+  margin: -30px;
+}
+
+.box {
+  border: 1px solid #000;
+  display: inline-block; /* Set to inlineblock to arrange boxes horizontally */
+  width: 60px;
+  height: 60px;
+  background-color: gold;
+  color: white;
+  margin: 5px 1px; /* Adjusted margin for spacing */
+  text-align: center;
+  line-height: 45px; /* Equal to the height of the box for vertical centering */
+  margin-top: 10px;
+}
+
+.mycontainer5 {
+  overflow: hidden;
+}
+
+.mycontainer5 .header {
+  color: black;
+  padding: 10px;
+  background-color: #F5F5F5;
+  margin-top: 20px;
+  margin-bottom: -60px;
+}
+
+.mycontainer5 h1 {
+  margin-bottom: -50px;
+}
+.mycontainer5 .image-container {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  margin-top: 150px;
+}
+
+.mycontainer5 .image-container img {
+  width: 100%;
+  margin-bottom: 15px; /* Add margin between stacked images */
+}
+
+.mycontainer5 .button-container {
+  margin-top: 20px;
+  margin-bottom: 1px;
+}
+
+.mycontainer5 button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mycontainer5 button:hover {
+  background-color: #e3a736;
+}
+
+.mycontainer6 {
+  display: inline-block;
+  justify-content: space-between;
+  align-items: center;
+  background-color: yellow;
+  padding: 5px 50px;
+  width: auto;
+  height: 260px;
+  overflow: hidden;
+}
+
+.mycontainer6 h1 {
+  margin-top: -40px;
+}
+
+.mycontainer6 .subscribe-section section {
+  display: flex;
+  align-items: center;
+  padding: 1px 5px;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.mycontainer6 button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.mycontainer6 button:hover {
+  background-color: #076d0c;
+}
+
+.mycontainer7 {
+  display: inline;
+  overflow: hidden;
+  background-color: #f0f0f0;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  text-align: center;
+}
+
+/* Rest of your existing styles remain unchanged */
+.contact-container h1 {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+  height: 1px;
+  margin-top: 45px;
+}
+.contact-container h6 {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+  height: 1px;
+}
+
+.contact-container p {
+  display: inline-block;
+  padding: 0;
+  width: 100%;
+  height: 1px;
+  margin-top: -10px;
+}
+
+.location-container {
+  background-color: #008CBA;
+  height: auto;
+  width: auto;
+}
+
+footer {
+  color: #777;
+  text-align: left;
+  background-color: #555;
+  padding: 5px;
+  font-size: 10px;
+}
+
+.location-container section {
+  background-color: white;
+  font-size: large;
+  margin: 50px 20px;
+  padding: 10px;
+}
+
+.mycontainer h2 {
+  font-size: 15px;
+}
+
+.mycontainer p {
+  width: 100%;
+  font-size: 10px;
+}
+
+/* .mycontainer8 Styles */
+.mycontainer8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align content horizontally */
+  max-width: 600px;
+  padding: 0;
+  margin: 0;
+  background-color: #1f3643;
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Common styles for all divisions within .mycontainer8 */
+.mycontainer8 div {
+  margin-bottom: 20px;
+  text-align: center; /* Center align content within each division */
+}
+
+/* Styles for #con1, #con2, #con3, #con4 */
+.mycontainer8 h1 {
+  color: white;
+  font-size: small;
+  padding: 1px 5px;
+  position: relative;
+  margin-bottom: 30px;
+  width: 70%; /* Adjust width as needed */
+  height: 10px;
+  margin-left: 30px;
+}
+
+.mycontainer8 h1::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: gold;
+}
+
+/* Styles for #con2 */
+.mycontainer8 #con2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mycontainer8 #con2 li {
+  margin-bottom: 10px;
+  text-align: center; /* Adjust alignment as needed */
+}
+
+.mycontainer8 #con2 a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+  display: block;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.mycontainer8 #con2 a:hover {
+  color: greenyellow;
+}
+
+.mycontainer8 .social-icons a {
+  margin: 5px 0;
+  font-size: small;
+  display: inline;
+}
+
+.mycontainer8 .social-icons a:hover {
+  color: #4caf50;
+}
+
+.mycontainer8 .instagram-feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center align content horizontally */
+  margin-top: 5px;
+}
+
+.mycontainer8 .instagram-feed div {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+#con2 {
+  margin-right: 30px;
+}
+
+#con1 {
+  margin-left: 20px;
+}
+#a1,
+#a2 {
+  margin: 0;
+  padding: 0;
+}
+}
