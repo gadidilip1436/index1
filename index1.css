@@ -862,7 +862,7 @@ footer {
   .href ul {
     list-style-type: none;
     margin: 0 auto;
-    padding: 2px;
+    padding: 0;
     background-color: #e1dbdb;
     overflow: hidden;
     font-size: 14px;
@@ -877,7 +877,7 @@ footer {
     display: block;
     color: black;
     text-align: left;
-    padding: 1px 3px; /* Adjusted padding */
+    padding: 1px 1px; /* Adjusted padding */
     text-decoration: none;
     width: auto;
     font-size: smaller;
